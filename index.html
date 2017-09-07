@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <title>Formulario</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+   </head>
+   <body>
+      <div class="form">
+         <form action="guardar.php" method="POST">
+           <p>Nombre</p>
+           <label for="nombre">Su nombre</label>
+           <br>
+           <input type="text" name="nombre" placeholder="Nombre" required>
+           <p>Correo</p>
+           <label for="correo">Dirección de correo</label>
+           <br>
+           <input type="email" name="correo" placeholder="alguien@algo.com" required>
+           <p>Mensaje</p>
+           <label for="mensaje">Su mensaje</label>
+           <br>
+           <textarea name="mensaje" placeholder="mensaje" required></textarea>
+           <br>
+           <br>
+           <input type="submit" value="enviar">
+         </form>
+      </div> 
+   </body>
+</html>
